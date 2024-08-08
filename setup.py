@@ -8,9 +8,9 @@ DESCRIPTION = 'Package to convert lowerr case to upper case letter'
 
 # Setting up
 setup(
-    name="vidstream",
+    name="uppre_102218038",
     version=VERSION,
-    author="NeuralNine (Florian Dedov)",
+    author="thebrownkidd",
     author_email="<mail@neuralnine.com>",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
