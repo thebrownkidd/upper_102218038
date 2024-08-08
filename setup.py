@@ -8,7 +8,7 @@ DESCRIPTION = 'Package to convert lowerr case to upper case letter'
 
 # Setting up
 setup(
-    name="uppre_102218038",
+    name="upper_102218038",
     version=VERSION,
     author="thebrownkidd",
     author_email="<mail@neuralnine.com>",
