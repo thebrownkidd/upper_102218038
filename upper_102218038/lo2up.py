@@ -1,3 +1,4 @@
+import os
 lo2up = {
     'a':'A',
     'b':'B',
@@ -28,7 +29,14 @@ lo2up = {
 }
 k = lo2up.keys
 def up(s):
-    for i in len(s):
+    for i in range(len(s)):
         if s[i] in k:
             s[i] = lo2up[s[i]]
     return s
+def fileup(fin,fout):
+    f = open(fin,'r')
+    s = f.read()
+    up(s)
+    f.close()
+    f = open(fout,'w')
+    f.write(s)

@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 
 
-VERSION = '1.0.0'
+VERSION = '2.0.0'
 DESCRIPTION = 'Package to convert lowerr case to upper case letter'
 # LONG_DESCRIPTION = 'A package that allows to build simple streams of video, audio and camera data.'
 
